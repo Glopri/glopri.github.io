@@ -2,12 +2,12 @@ import executor from "./executors.js";
 
 export default [
   {
-    name: ["search", "s"],
+    name: ["search", "s", "duck"],
     description: "Searches DuckDuckGo for the given query",
     execute: executor.search,
   },
   {
-    name: ["ls"],
+    name: ["ls", "short", "shortcut"],
     description: "Lists available shortcuts",
     execute: executor.ls,
   },
@@ -27,7 +27,7 @@ export default [
     execute: executor.weather,
   },
   {
-    name: ["motd"],
+    name: ["motd", "quote"],
     description: "Displays a random famous quote",
     execute: executor.motd,
   },
