@@ -1,7 +1,7 @@
 export default [
   {
     category: "Dev",
-    color: "cyan",
+    color: "green",
     items: {
       Github: "https://github.com",
       AWS: "https://aws.amazon.com",
